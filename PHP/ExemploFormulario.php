@@ -68,8 +68,25 @@
                     <input type="radio" class="form-check-input" name="sexo" value="M">
                     <label class="form-check-label">Masculino</label>
                 </div>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Revista</label>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" name="op01" value="PHP">
+                    <label class="form-check-label">PHP</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" name="op02" value="MYSQL">
+                    <label class="form-check-label">MYSQL</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" name="op03" value="HTML">
+                    <label class="form-check-label">HTML</label>
+                </div>
 
             </div>
+
 
         </form>
     </div>
