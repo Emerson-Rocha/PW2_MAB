@@ -84,9 +84,27 @@
                     <input type="checkbox" class="form-check-input" name="op03" value="HTML">
                     <label class="form-check-label">HTML</label>
                 </div>
-
+            
             </div>
 
+             <div class="mb-3">
+                <label class="form-label"> Mensagem </label>
+                <textarea name="ms" class="form-control" row=5></textarea>
+             </div>
+
+             <div class="mb-3">
+                 <label class="form-label">Imagem</label>
+                 <input type="file" name="arq"  class="form-control">
+             </div> 
+            
+              <div class="mb-3">
+                 <label class="form-label">Senha</label>
+                 <input type="password" name="senha" class="form-control">
+              </div>
+
+              <div class="mb-3">
+                  <input type="submit" class="btn btn-primary " value="enviar">
+              </div>
 
         </form>
     </div>
