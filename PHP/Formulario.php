@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-  <form action="proc.php" method="get">
+  <form action="proc.php" method="post">
     <div>
          <label for="nome">Nome :</label>
          <br>
@@ -28,6 +28,12 @@
          id="RG"/>
     </div>
 
+    <div>
+    <label for="EMAIL">E-mail :</label>
+         <br>
+         <input type="email" name="ema" 
+         id="ema"/>
+    </div>
 
 
     <div>
